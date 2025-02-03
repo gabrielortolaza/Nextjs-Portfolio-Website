@@ -8,7 +8,6 @@ import { Link, Element } from 'react-scroll';
 
 export const Navbar = () => {
   const navigation = [
-    "Home",
     "What we do",
     "Why Fostar",
     "Project phases",
