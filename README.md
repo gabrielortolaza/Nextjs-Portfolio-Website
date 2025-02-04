@@ -19,7 +19,7 @@ Click on the [Use Template](https://github.com/surjithctly/nextly-template/gener
 ### 1\. Clone this Repository
 
 ```bash
-git clone https://github.com/fo-star/fostar.git
+git clone https://github.com/gabrielortolaza/Nextjs-Portfolio-Website
 ```
 
 ### 2\. Navigate to the directory

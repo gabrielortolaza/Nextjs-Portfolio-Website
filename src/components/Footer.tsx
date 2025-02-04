@@ -97,8 +97,8 @@ export function Footer() {
             </div>
             <div className="mt-5">Contact us</div>
             <div className="flex mt-2 space-x-5 text-gray-400 dark:text-gray-500">
-              <a href="mailto:info@fo-star.com" target="_blank" rel="noopener">
-                info@fo-star.com
+              <a href="mailto:gabriel.ortolaza124@gmail.com" target="_blank" rel="noopener">
+                gabriel.ortolaza124@gmail.com
               </a>
             </div>
             <div className="flex mt-2 space-x-5 text-gray-400 dark:text-gray-500">

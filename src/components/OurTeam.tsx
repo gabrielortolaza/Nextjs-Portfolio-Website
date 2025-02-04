@@ -19,46 +19,10 @@ import pic_Scott from "../../public/img/team/scott.jpg";
 
 const data = [
   {
-    name: 'Stid Ning (Peace)',
-    title: 'Founder',
-    role: '',
-    image: pic_Stid
-  },
-  {
-    name: 'Jeff S.',
-    title: 'Co-Founder',
-    role: 'Software Engineer',
-    image: pic_Jeff
-  },
-  {
-    name: 'Tim Akira',
-    title: 'Co-Founder',
-    role: 'Software Engineer',
-    image: pic_Tim
-  },
-  {
-    name: 'Jason Liu',
-    title: '',
-    role: 'Software Engineer',
-    image: pic_Jason
-  },
-  {
     name: 'Kenny Roy',
     title: '',
     role: 'Software Engineer',
     image: pic_Kenny
-  },
-  {
-    name: 'Bayu A.',
-    title: '',
-    role: 'Software Engineer',
-    image: pic_Bayu
-  },
-  {
-    name: 'Richard Glenn',
-    title: '',
-    role: 'Software Engineer',
-    image: pic_Richard
   },
 ];
 
