@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Container } from "@/components/Container";
-import heroImg from "../../public/img/hero.png";
+import heroImg from "../../public/img/photo.jpg";
 import ibmImg from "../../public/img/logos/ibm.png";
 import stripeImg from "../../public/img/logos/stripe.png";
 
@@ -11,24 +11,22 @@ export const Hero = () => {
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-              Build and launch software in weeks
+              Full Stack Software Developer
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              Fostar is a consultancy of strategists, designers, and engineers. 
-              We are agile. We build, launch, and scale web and mobile apps alongside 
-              inspiring clients.
+            My expertise lies in simplifying processes, devising innovative solutions, and adhering to best practices. My recent experience stems from freelance and contract positions on Toptal and Upwork, where I served as a senior engineer, offering my assistance to companies in need of urgent development resources.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
-                href="mailto:info@fo-star.com"
+                href="mailto:gabriel.ortolaza124@gmail.com"
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
                 Let&apos;s work together
               </a>
               <a
-                href="https://github.com/fo-star"
+                href="https://github.com/gabrielortolaza"
                 target="_blank"
                 rel="noopener"
                 className="flex items-center space-x-2 text-gray-500 dark:text-gray-400">
