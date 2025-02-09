@@ -6,8 +6,11 @@ import { ChevronUpIcon } from "@heroicons/react/24/solid";
 
 export const ProcessExpertise = () => {
   return (
-    <Container className="!p-0">
-      <div className="md:flex flex-wrap justify-between">
+    <Container className="!p-0 expertise-section">
+      <p className="items-center">
+        <img src="https://skillicons.dev/icons?i=react,next,redux,angular,vue,typescript,javascript,nodejs,express,php,laravel,wordpress,python,django,flask,java,dotnet,mysql,postgresql,mongodb,graphql,docker,firebase,git,github,aws,html,css,jquery,sass" />
+      </p>
+      {/* <div className="md:flex flex-wrap justify-between">
         <div className="w-full xl:max-w-xl 2xl:max-w-2xl p-2">
           {processdata.map((item, index) => (
             <div key={item.title} className="mb-5">
@@ -54,7 +57,7 @@ export const ProcessExpertise = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </Container>
   );
 }

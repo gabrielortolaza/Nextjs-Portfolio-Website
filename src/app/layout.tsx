@@ -12,8 +12,8 @@ import { ScrollTopButton } from "@/components/ScrollTopButton";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Fostar | Rapid Software Development and Boutique Consulting",
-  description: "Agile App Development, Mobile App Development, Web App Development",
+  title: "Gabriel Ortolaza",
+  description: "Web App Development, Mobile App Development",
 };
 
 export default function RootLayout({

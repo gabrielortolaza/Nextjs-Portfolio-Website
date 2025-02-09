@@ -2,12 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @layer base {
   html,
   body {
     @apply dark:bg-trueGray-900;
+  }
+
+  .banner-section {
+    .section-right {
+      img {
+        border-radius: 10px;
+        max-width: 500px;
+        width: 100%;
+      }
+    }
+  }
+
+  .services-section {
+    .item {
+      .icon {
+        width: 80px;
+        height: auto;
+
+        img {
+          border-radius: 3px;
+        }
+      }
+    }
+  }
+
+  .expertise-section {
+    img {
+      margin: auto;
+    }
   }
 }
 

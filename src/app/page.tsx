@@ -14,17 +14,19 @@ import { benefitOne, benefitTwo } from "@/components/data";
 import { ProjectPhases } from "@/components/ProjectPhases";
 import { ProcessExpertise } from "@/components/ProcessExpertise";
 import { OurTeam } from "@/components/OurTeam";
+import { Experience } from "@/components/Experience";
+
 export default function Home() {
   return (
     <Container>
       <Element name="Home2">
         <Hero />
       </Element>
-      <Element name="What_we_do">
+      <Element name="Services">
         <Benefits data={benefitOne} />
       </Element>
 
-      <Element name="Why_Fostar">
+      {/* <Element name="Why_Fostar">
         <Benefits imgPos="right" data={benefitTwo} />
       </Element>
 
@@ -37,21 +39,18 @@ export default function Home() {
           a team of engineers. Fostar can help develop 4x faster at 50% the cost.
         </SectionTitle>
         <ProjectPhases />
-      </Element>
+      </Element> */}
 
-      <Element name="Fostar_process">
-        <SectionTitle preTitle="" title="Fostar process and expertise">
+      <Element name="Expertise">
+        <SectionTitle preTitle="" title="Expertise">
         </SectionTitle>
         <ProcessExpertise />
       </Element>
 
-      <Element name="Team">
-        <SectionTitle
-          preTitle=""
-          title="Our Team"
-        >
+      <Element name="Experience">
+        <SectionTitle preTitle="" title="Experience">
         </SectionTitle>
-        <OurTeam />
+        <Experience />
       </Element>
 
       <Cta />
