@@ -1,14 +1,14 @@
 <p align="center">
- <a href="https://fo-star.com">
-    Fostar - Rapid Software Development
+ <a href="https://">
+    Portfolio Website
  </a> 
  <br>
  <br>
 </p>
 
-# Fostar - Front End with Next.js & Tailwind CSS
+# Front End with Next.js & Tailwind CSS
 
-Fostar is Software Company website. Its built with Next.js & TailwindCSS.
+The website was built with Next.js & TailwindCSS.
  
 ![image](https://user-images.githubusercontent.com/1884712/121497169-03228680-c990-11eb-975a-e77fddc43de0.png)
 
@@ -25,7 +25,7 @@ git clone https://github.com/gabrielortolaza/Nextjs-Portfolio-Website
 ### 2\. Navigate to the directory
 
 ```
-cd fostar
+cd 
 ```
 
 ### 3\. Install dependencies

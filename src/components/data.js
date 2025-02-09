@@ -7,28 +7,43 @@ import {
   SparklesIcon,
 } from "@heroicons/react/24/outline";
 
-import benefitOneImg from "../../public/img/benefit-one.png";
+import benefitOneImg from "../../public/img/services.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
+import frontend from "../../public/img/frontend.png";
+import backend from "../../public/img/backend.png";
+import mobile from "../../public/img/mobile.png";
+import database from "../../public/img/database.png";
+import devops from "../../public/img/devops.png";
 
 const benefitOne = {
-  title: `How Fostar helps clients`,
-  desc: `We build custom apps for corporations, and partner with startups to build their first app the right way. We rely on user testing and data to remove the guess work, and we fast-track user growth by building smart user acquisition plans.`,
+  title: `How I Can Help You`,
+  desc: `I specialize in building modern, scalable, and high-performance web applications tailored to your business needs. Whether you need a dynamic website, a powerful backend, or a seamless mobile experience, I provide end-to-end development solutions that deliver exceptional user experiences.`,
   image: benefitOneImg,
   bullets: [
     {
-      title: `Building a new website or MVP`,
-      desc: `Want to refresh your website or build a new product? Fostar can bring it to life quickly so you can establish product/market fit without spending much time or money.`,
-      icon: <RocketLaunchIcon />,
+      title: `Frontend Development`,
+      desc: `Engaging, pixel-perfect UI/UX with React, Next, Angular, Vue, TypeScript, and modern frameworks.`,
+      icon: frontend,
     },
     {
-      title: `Need internal tools built`,
-      desc: `Need to build internal tools to improve operations but don't have engineering resources or a large budget? We can help.`,
-      icon: <Cog8ToothIcon />,
+      title: `Backend Development`,
+      desc: `Scalable, secure, and optimized APIs with Node.js, Express.js, Laravel, Python frameworks, and .Net frameworks.`,
+      icon: backend,
     },
     {
-      title: `Unhappy with legacy dev time & cost`,
-      desc: `Already started a project thats taking too long, costing too much or gone sideways with your offshore team? We can help right the ship.`,
-      icon: <CurrencyDollarIcon />,
+      title: `Mobile App Development`,
+      desc: `Cross-platform apps with React Native for seamless user experience.`,
+      icon: mobile,
+    },
+    {
+      title: `Database Management`,
+      desc: `Efficient, optimized databases with PostgreSQL, MySQL, and MongoDB.`,
+      icon: database,
+    },
+    {
+      title: `Cloud & DevOps`,
+      desc: `Scalable deployments using AWS, Firebase, and Docker for high availability.`,
+      icon: devops,
     },
   ],
 };
