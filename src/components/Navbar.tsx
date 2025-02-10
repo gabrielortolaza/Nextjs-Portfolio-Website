@@ -98,7 +98,7 @@ export const Navbar = () => {
           </div>
 
           <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-            <a href="mailto:gabriel.ortolaza124@gmail.com" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
+            <a href="https://www.upwork.com/freelancers/~01e4e6ff45eaeb81f3" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
               Get Started
             </a>
 

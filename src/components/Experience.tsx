@@ -62,26 +62,9 @@ export const Experience = () => {
   // };
 
   return (
-    <Container>
-      <div className="inline-block gap-10 text-center w-full">
-        {/* <Slider {...settings}> */}
-          {
-            data.map((item, index) =>
-              <div className="inline-block min-w-[200px]" key={index}>
-                {/* <div className="flex flex-col justify-between w-full h-full bg-gray-100 p-4 rounded-2xl dark:bg-trueGray-800"> */}
-                <div className="flex flex-col justify-between w-full h-full p-4 rounded-2xl">
-                  <Project
-                    image={item.image}
-                    name={item.name}
-                    title={item.title}
-                    role={item.role}
-                  />
-                </div>
-              </div>
-            )
-          }
-          <CardGrid />
-        {/* </Slider> */}
+    <Container className="p-0">
+      <div className="inline-block gap-10 text-center w-full p-0">
+        <CardGrid />
       </div>
     </Container>
   );
@@ -96,7 +79,7 @@ interface ProjectProps {
 
 function Project(props: Readonly<ProjectProps>) {
   return (
-    <div className="text-center p-4">
+    <div className="text-center p-0">
       <div className="flex w-full items-center justify-center">
         <div className="flex-shrink-0 overflow-hidden rounded-full">
           <Image
