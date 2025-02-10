@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Image from "next/image";
 import { CardData } from "../types";
 
 interface ModalProps {
@@ -13,6 +14,9 @@ export default function Modal({ card, onClose }: ModalProps) {
     setCurrentIndex((prevIndex) =>
       prevIndex === card.images.length - 1 ? 0 : prevIndex + 1
     );
+
+    console.log("card.images = ", card.images);
+    console.log("currentIndex = ", currentIndex);
   };
 
   const prevImage = () => {
@@ -28,12 +32,12 @@ export default function Modal({ card, onClose }: ModalProps) {
           ✖
         </button>
         <h2>{card.title}</h2>
-        <p>{card.description}</p>
         <div className="slider">
           <button onClick={prevImage}>❮</button>
-          <img src={card.images[currentIndex]} alt={card.title} />
+          <Image src={card.images[currentIndex]} alt={card.title} style={{ width: '90%' }} />
           <button onClick={nextImage}>❯</button>
         </div>
+        <p>{card.description}</p>
       </div>
       <style jsx>{`
         .modal-overlay {
@@ -49,11 +53,18 @@ export default function Modal({ card, onClose }: ModalProps) {
           z-index: 1000;
         }
         .modal-content {
-          background: white;
-          padding: 20px;
+          width: 70%;
+          background: #ddd;
+          padding: 30px 20px;
           border-radius: 10px;
           text-align: center;
           position: relative;
+        }
+        .modal-content h2 {
+          font-weight: bold;
+        }
+        .modal-content p {
+          margin-top: 15px;
         }
         .close-btn {
           position: absolute;
@@ -70,8 +81,8 @@ export default function Modal({ card, onClose }: ModalProps) {
           justify-content: center;
           margin-top: 10px;
         }
-        .slider img {
-          width: 300px;
+        .slider .img {
+          width: 90%;
           height: auto;
           border-radius: 10px;
         }
@@ -80,6 +91,7 @@ export default function Modal({ card, onClose }: ModalProps) {
           border: none;
           font-size: 24px;
           cursor: pointer;
+          padding: 10px;
         }
       `}</style>
     </div>

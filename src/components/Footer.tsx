@@ -70,7 +70,7 @@ export function Footer() {
             <div>Follow me</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
               <a
-                href="https://github.com/fo-star"
+                href="https://github.com/gabrielortolaza"
                 target="_blank"
                 rel="noopener"
               >

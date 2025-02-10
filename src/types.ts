@@ -9,5 +9,5 @@ export interface CardData {
   id: number;
   title: string;
   description: string;
-  images: string[];
+  images: any[];
 }
