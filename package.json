@@ -31,6 +31,7 @@
     "@mui/material": "^5.16.7",
     "@types/react-scroll": "^1.8.10",
     "@types/react-slick": "^0.23.13",
+    "axios": "^1.7.9",
     "copy-to-clipboard": "^3.3.3",
     "next": "14.2.3",
     "next-themes": "^0.3.0",
