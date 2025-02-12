@@ -97,11 +97,6 @@ const expertisedata = [
     title: `In-store and online commerce`,
     description: `Fostar has designed, developed and patented a hands-free, in-store/in-person and password-free online shopping experience which create the most convenient and secure checkout experience.`,
   },
-  // {
-  //   title: `eCommerce`,
-  //   description:
-  //     `Fostar has been responsible for setting up and overseeing major eCommerce brand websites processing millions of dollars a minute.`,
-  // },
   {
     title: `Healthcare`,
     description:

@@ -26,21 +26,6 @@ export default function Home() {
         <Benefits data={benefitOne} />
       </Element>
 
-      {/* <Element name="Why_Fostar">
-        <Benefits imgPos="right" data={benefitTwo} />
-      </Element>
-
-      <Element name="Project_phases">
-        <SectionTitle
-          preTitle=""
-          title="Project phases"
-        >
-          Legacy software projects come with long timelines, high price tags and require 
-          a team of engineers. Fostar can help develop 4x faster at 50% the cost.
-        </SectionTitle>
-        <ProjectPhases />
-      </Element> */}
-
       <Element name="Expertise">
         <SectionTitle preTitle="" title="Expertise">
         </SectionTitle>
